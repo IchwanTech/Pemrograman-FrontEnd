@@ -1,0 +1,42 @@
+nav {
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Default untuk Mobile */
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+  color: #717171;
+}
+
+/* Tablet & Desktop */
+@media (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+}

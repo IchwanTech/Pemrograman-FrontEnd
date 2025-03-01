@@ -1,0 +1,58 @@
+footer {
+  background-color: #f3f3f3;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid #ddd;
+  border-radius: 8px;
+  margin-top: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 3px 0;
+  color: #333;
+}
+
+footer span {
+  font-size: 12px;
+  color: #717171;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  footer {
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  footer h3 {
+    font-size: 16px;
+  }
+
+  footer span {
+    font-size: 14px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    max-width: 1200px;
+    margin: 30px auto 0;
+  }
+
+  footer h3 {
+    font-size: 18px;
+  }
+
+  footer span {
+    font-size: 16px;
+  }
+}

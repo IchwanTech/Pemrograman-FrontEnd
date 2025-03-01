@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: #efefef;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Style Tablet */
+@media screen and (max-width: 769px) {
+  .container {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* Style Mobile */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
