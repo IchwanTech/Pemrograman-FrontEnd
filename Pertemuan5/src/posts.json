@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Claude AI, technology of the future",
+    "tags": ["technology", "ai"],
+    "author": "Wan",
+    "date": "2025-01-01",
+    "isNew": true
+  },
+  {
+    "title": "Tutorial belajar React paling goksssss di tahun 2025",
+    "tags": ["reactjs", "frontend"],
+    "author": "Noerfy",
+    "date": "2025-02-01",
+    "isNew": true
+  },
+  {
+    "title": "Coretex sampah",
+    "tags": ["coretex"],
+    "author": "Fitrah",
+    "date": "2022-01-01",
+    "isNew": false
+  },
+  {
+    "title": "Deepseek, the future of search engine",
+    "tags": ["technology", "deepseek"],
+    "author": "Noerfitrah",
+    "date": "2025-12-11",
+    "isNew": true
+  },
+  {
+    "title": "Tutorial jadi fullstack di umur 20 an",
+    "tags": ["fullstack", "programmer"],
+    "author": "Wanfy",
+    "date": "2025-04-01",
+    "isNew": false
+  },
+  {
+    "title": "Gaji programmer tahun 2025",
+    "tags": ["programmer", "fullstack"],
+    "author": "fyy",
+    "date": "2025-03-02",
+    "isNew": false
+  }
+]
